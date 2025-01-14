@@ -111,7 +111,7 @@ const RightSlider = ({ additionalData }) => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="relative w-full md:w-56 flex items-center bg-white/30 px-2 rounded-[0_0_2rem_2rem] md:rounded-[0_2rem_2rem_0]">
+    <div className="relative w-full md:w-56 flex items-center bg-white/30 px-2 py-3 rounded-[0_0_2rem_2rem] md:rounded-[0_2rem_2rem_0]">
       <Swiper
         ref={swiperRef}
         mousewheel={true}
@@ -121,7 +121,7 @@ const RightSlider = ({ additionalData }) => {
         loop={false}
         onSlideChange={(slides) => setActiveIndex(slides.realIndex)}
         modules={[Pagination, Autoplay]}
-        className="h-32 md:h-40 w-full"
+        className="h-28 md:h-40 w-full"
       >
         {additionalData.map((item, idx) => (
           <SwiperSlide key={idx} className="px-3">
