@@ -17,7 +17,7 @@ const Hero = () => {
           className="absolute bottom-80 w-[26%] xl:w-[32%] left-0 -z-10"
         />
       </div>
-      <div className="size-8 absolute bottom-[20%] left-[10%] bg-white/40 rounded-full -z-10" />
+      <div className="size-8 absolute bottom-10 md:bottom-[20%] left-[10%] bg-white/40 rounded-full -z-10" />
       <div className="hidden md:block size-5 absolute right-[10%] bottom-[10%] bg-white/40 rounded-full -z-10" />
       <div className="size-6 absolute right-[20%] bottom-[30%] bg-white/40 rounded-full -z-10" />
       <div className="size-4 absolute left-[30%] bottom-[10%] bg-white/40 rounded-full -z-10" />
