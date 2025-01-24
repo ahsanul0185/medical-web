@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
-      <p>{apiUrl}</p>
+      <p className='text-5xl'>Hello : api key is = {apiUrl}</p>
     </div>
   )
 }
