@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img className="size-8" src={logo} alt="logo" />
-          <h2 className="text-2xl italic font-bold">Mental.me</h2>
+          <h2 className="text-2xl italic font-bold">Mentall.me</h2>
         </div>
 
         {/* right icons */}
